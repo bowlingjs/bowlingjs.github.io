@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: #2E2E2C;
+  color: #f7f7f7;
+}
+h1 {
+  font-weight: 200;
+}
+h2 {
+  font-weight: 200;
+}
+#hero {
+  background: transparent url(hero.jpg) no-repeat scroll top center;
+  background-size: cover;
+  height: 600px;
+}
+#logo {
+  background: transparent url(logo.png) no-repeat scroll center center;
+  background-size: 443px auto;
+  height: 100%;
+}
+main {
+  padding: 60px 0;
+}
+iframe {
+  margin: 15px 0;
+  pointer-events: none;
+}
