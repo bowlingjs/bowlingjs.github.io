@@ -9,15 +9,33 @@ h1 {
 h2 {
   font-weight: 200;
 }
+a, a:visited {
+  color: #999;
+}
+a:hover {
+  color: #fff;
+}
 #hero {
   background: transparent url(hero.jpg) no-repeat scroll top center;
-  background-size: cover;
-  height: 600px;
+  background-size: auto 150%;
+  height: 300px;
+  
+}
+@media (min-width: 768px) {
+  #hero {
+    height: 600px;
+  }
 }
 #logo {
   background: transparent url(logo.png) no-repeat scroll center center;
-  background-size: 443px auto;
+  background-size: 221px auto;
   height: 100%;
+}
+@media (min-width: 768px) {
+  #logo {
+    
+    background-size: 443px auto;
+  }
 }
 main {
   padding: 60px 0;
@@ -32,6 +50,9 @@ iframe {
 .hr {
   text-align: center;
   margin: 30px 0;
+}
+a.btn {
+  color: #fff;
 }
 footer {
   background: #333;
