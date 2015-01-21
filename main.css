@@ -26,3 +26,17 @@ iframe {
   margin: 15px 0;
   pointer-events: none;
 }
+.text-yellow {
+  color: #F3DF49;
+}
+.hr {
+  text-align: center;
+  margin: 30px 0;
+}
+footer {
+  background: #333;
+  padding: 60px 0;
+  font-size: 16px;
+  color: #ccc;
+  text-align: center;
+}
