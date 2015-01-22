@@ -3,17 +3,14 @@ body {
   background: #2E2E2C;
   color: #f7f7f7;
 }
-h1 {
-  font-weight: 200;
-}
-h2 {
+h1, h2 {
   font-weight: 200;
 }
 a, a:visited {
-  color: #999;
+  color: #fff;
 }
 a:hover {
-  color: #fff;
+  color: #F3DF49;
 }
 #hero {
   background: transparent url(hero.jpg) no-repeat scroll top center;
@@ -60,4 +57,10 @@ footer {
   font-size: 16px;
   color: #ccc;
   text-align: center;
+}
+footer a, footer a:visited {
+  color: #999;
+}
+footer a:hover {
+  color: #fff;
 }
